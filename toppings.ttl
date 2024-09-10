@@ -1,0 +1,24 @@
+@prefix colour: <https://example.org/colour-with-hierarchy/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+topping: a skos:ConceptScheme ;
+    dct:title "Pizza toppings"@en, "Pizzabeläge"@de ;
+    dct:creator "Markus Schmidt"@de ;
+    dct:created "2021-11-11"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept colour:ham, colour:cheese .
+
+topping:ham a skos:Concept ;
+    skos:prefLabel "Schinken"@de, "ham"@en ;
+    skos:topConceptOf topping: .
+
+topping:cheese a skos:Concept ;
+    skos:prefLabel "cheese"@en, "Käse"@de ;
+    skos:narrower colour:mozzarella ;
+    skos:topConceptOf topping: .
+    
+topping:mozzarella a skos:Concept ;
+    skos:prefLabel "Mozzarella"@en, "Mozzarella"@de ;
+    skos:inScheme topping: .
