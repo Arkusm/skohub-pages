@@ -16,7 +16,7 @@ topping:ham a skos:Concept ;
 
 topping:cheese a skos:Concept ;
     skos:prefLabel "cheese"@en, "Käse"@de ;
-    skos:narrower colour:mozzarella ;
+    skos:narrower topping:mozzarella ;
     skos:topConceptOf topping: .
     
 topping:mozzarella a skos:Concept ;
