@@ -8,7 +8,7 @@ topping: a skos:ConceptScheme ;
     dct:creator "Markus Schmidt"@de ;
     dct:created "2021-11-11"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept colour:ham, colour:cheese .
+    skos:hasTopConcept topping:ham, topping:cheese .
 
 topping:ham a skos:Concept ;
     skos:prefLabel "Schinken"@de, "ham"@en ;
