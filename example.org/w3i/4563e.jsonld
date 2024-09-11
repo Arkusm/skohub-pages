@@ -4,6 +4,12 @@
   "prefLabel": {
     "de": "Vernetzung"
   },
+  "broader": {
+    "id": "https://example.org/w3i/d5182",
+    "prefLabel": {
+      "de": "Support-Strukturen"
+    }
+  },
   "inScheme": [
     {
       "id": "https://example.org/w3i/",

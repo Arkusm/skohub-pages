@@ -4,6 +4,12 @@
   "prefLabel": {
     "de": "Datenschutz"
   },
+  "broader": {
+    "id": "https://example.org/w3i/b44d8",
+    "prefLabel": {
+      "de": "test"
+    }
+  },
   "inScheme": [
     {
       "id": "https://example.org/w3i/",

@@ -4,6 +4,12 @@
   "prefLabel": {
     "de": "Lehre planen & durchführen"
   },
+  "broader": {
+    "id": "https://example.org/w3i/83f3e",
+    "prefLabel": {
+      "de": "Handlungsfelder der Lehre"
+    }
+  },
   "inScheme": [
     {
       "id": "https://example.org/w3i/",
