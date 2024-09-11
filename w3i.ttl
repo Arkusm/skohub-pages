@@ -40,12 +40,15 @@ w3i:32100
     skos:inScheme w3i: ;
     skos:prefLabel "Anreize"@de .
 w3i:4563e
-    a skos:Concept;
-    skos:altlabel "Austausch"@de;
-    skos:broader w3i:d5182;
-    skos:inScheme w3i:;
-    skos:prefLabel "Vernetzung"@de.
-w3i:47db9 a skos:Concept; skos:inScheme w3i: .
+    a skos:Concept ;
+    skos:altlabel "Austausch"@de ;
+    skos:broader w3i:d5182 ;
+    skos:inScheme w3i: ;
+    skos:prefLabel "Vernetzung"@de .
+
+w3i:47db9
+    a skos:Concept; 
+    skos:inScheme w3i: .
 
 w3i:48ecf
     a skos:Concept;
