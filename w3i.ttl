@@ -84,7 +84,7 @@ w3i:67e63
     skos:prefLabel "Informationsmaterialien"@de.
 w3i:6ef67
     a skos:Concept;
-    skos:altlabel "Ausbau/B\u00fcndelung von Support-Strukturen"@de;
+    skos:altlabel "Ausbaundelung von Support-Strukturen"@de;
     skos:broader w3i:b44d8;
     skos:inScheme w3i:;
     skos:prefLabel "Supportzentren"@de.
