@@ -21,7 +21,7 @@ w3i:15298
 w3i:2677c
     a skos:Concept ;
     skos:narrower w3i:6588c, w3i:721d4, w3i:839e9, w3i:88c16, w3i:a413d, w3i:d1bdc ;
-    skos:prefLabel "Technisch-r\u00e4umliche Infrastruktur"@de ;
+    skos:prefLabel "Technisch-räumliche Infrastruktur"@de ;
     skos:topConceptOf w3i: .
 w3i:2977f
     a skos:Concept ;
